@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "focusmod",
+  "version": "${version}",
+  "name": "Focus 1v1",
+  "description": "Kliknij prawym na gracza, zeby widziec i bic tylko jego. R = wyjscie z trybu.",
+  "authors": ["Ty"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["pl.focusmod.FocusMod"]
+  },
+  "mixins": ["focusmod.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
